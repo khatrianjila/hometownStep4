@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+   background: linear-gradient(#F5EDF0, #D1CCDC);
+    color: #F08700;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#banner-img {
+    width: 80%
+    border-radius : 10%;
+    border: 6px solid #F08700;
+    margin-bottom: 10px;
+}
+
+#town-title{
+    background: #016FB9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-section {
+    margin-top: 50px;
+}
+
+.images-title {
+    margin-bottom: 10px;
+}
+
+.images-hint {
+    margin-top: 0;
+}
+
+.images-img {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+   
+    background-size: cover;
+}
+
+#images-img-basantapur {
+    background-image: url("images/basantapur.jpg");
+}
+
+#images-img-swayambhu {
+    background-image: url("images/swayambhu.jpg");
+}
+
+#images-img-thamel {
+    background-image: url("images/thamel.jpg");
+}
+
+
+#home-text {
+    display:block;
+    width: 500px;
+     border: 6px solid #F08700;
+     background: white;
+     margin-left:  auto  ;
+     margin-right:  auto  ;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
